@@ -1,0 +1,13 @@
+.idea/*
+*.iws
+*.iml
+.settings
+eclipse
+stacktrace.log
+target
+/web-app/WEB-INF/classes
+out/*
+*.swp
+test/*
+.DS_Store
+classes
