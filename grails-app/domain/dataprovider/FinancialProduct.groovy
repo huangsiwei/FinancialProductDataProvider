@@ -2,6 +2,7 @@ package dataprovider
 
 class FinancialProduct {
 
+    String city
     String productName                  //产品名称
     String issuer                       //发行银行
     int minAmountOfInvestment           //最小投资金额

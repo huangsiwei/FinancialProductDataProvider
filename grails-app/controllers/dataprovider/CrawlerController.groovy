@@ -10,4 +10,12 @@ class CrawlerController {
         financialProductCrawlerService.crawlerAllFinancialProduct()
     }
 
+    def testFunction(){
+        def bigList = ["A","B","C"]
+        bigList.each { ins ->
+            println(ins)
+            bigList - ins
+        }
+
+    }
 }
